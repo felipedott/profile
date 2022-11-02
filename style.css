@@ -1,0 +1,111 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  margin: 15px;
+  background-color: rgba(48, 227, 202, 0.3);
+  font-family: "Courier New", Courier, monospace;
+  color: #40514e;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.middle-container {
+  width: 75%;
+  margin: auto;
+}
+.card {
+  background: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  border: 1px solid #40514e;
+  box-shadow: 0px 10px 30px #40514E;
+}
+
+.btn-green {
+  background-color: #40514e;
+  color: white;
+  padding: 15px 21px;
+  border-radius: 4px;
+  margin: 25px;
+}
+
+
+p {
+  margin: 30px;
+}
+
+
+h1,
+h2 {
+  color: #11999e;
+  font-size: 2rem;
+  line-height: 2;
+  padding: 3px;
+  margin: 2px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 42px;
+}
+
+.profile--picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+   margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fa-brands:hover {
+  color: #11999e;
+}
+
+.btn-green:hover {
+  background-color: #11999e;
+}
+
+a {
+  text-decoration: none;
+  color: #30e3ca;
+}
